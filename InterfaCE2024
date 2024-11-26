@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPICE-LNM Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>JPICE-LNM Organization</h1>
+        <p>Empowering Future Engineers</p>
+    </header>
+
+    <!-- Events Section -->
+    <section class="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-timeline">
+            <div class="event">
+                <h3>Engineering Fair</h3>
+                <p>December 5, 2024 - A showcase of innovative projects by students.</p>
+            </div>
+            <div class="event">
+                <h3>Annual Sportsfest</h3>
+                <p>January 15, 2025 - A fun-filled day of games and competitions.</p>
+            </div>
+            <div class="event">
+                <h3>Leadership Summit</h3>
+                <p>February 10, 2025 - Developing the leaders of tomorrow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Message"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div class="social-links">
+            <h3>Follow Us:</h3>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="sponsors">
+        <h2>Our Sponsors</h2>
+        <div class="sponsor-grid">
+            <div class="sponsor">
+                <img src="sponsor1.png" alt="Sponsor 1">
+                <p>10% Discount for Members</p>
+            </div>
+            <div class="sponsor">
+                <img src="sponsor2.png" alt="Sponsor 2">
+                <p>Exclusive Vouchers for JPICE Members</p>
+            </div>
+            <div class="sponsor">
+                <img src="sponsor3.png" alt="Sponsor 3">
+                <p>20% Off on Selected Services</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 JPICE-LNM Organization. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
